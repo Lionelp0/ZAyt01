@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Tengoku 1</title>
+  
+  
+<link rel="stylesheet" href="./style.css">
+
+  
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+
+	<!-- JavaScript -->
+	<script src="https://cdn.jwplayer.com/libraries/MiW9uCZ2.js"></script>
+
+</head>
+<body>
+  <style type="text/css">*{margin:0;padding:0;outline:none;}#container{position:absolute;width:100%!important;height:100%!important;}*:focus{outline:none;}</style>
+	<div id="container"></div>
+</body>
+</html>
+<!-- partial -->
+  <script>
+  
+  
+    
+    jwplayer("container").setup({
+
+		    controls: true,
+		    displaytitle: true,
+		    fullscreen: "false",
+		    primary: 'html5',
+             autostart: 'true',
+		  
+		    
+
+		    skin: {
+		    	name: 'ZonAnime',
+		    },
+
+
+		     
+		    captions: {
+		        color: '#FFF',
+		         fontSize: 14,
+		         backgroundOpacity: 0,
+		         edgeStyle: 'raised' 
+		    },
+
+		  playlist: [
+        ,
+        //Begin Movies Truyen Ky Ly Tieu Long Tap 1
+       {        
+		    title: "Tengoku Daimakyou Episodio 1",
+		    description: "  ",
+		    image: "https://image.tmdb.org/t/p/w500//hjuA5thPA0vBIATH2WK05StjrTe.jpg",
+		    sources: [{
+		    file: "https://ia601603.us.archive.org/19/items/01-tng-0ku-d/01-T%C9%99ng0ku-D.mp4",
+		      label: 'Opción 1',
+		      'type': 'mp4',
+		      primary: 'html5',
+
+
+		    },{
+		     file: "https://files.catbox.moe/k66c8u.mp4",
+		      label: 'Opción 2,
+		      'type': 'mp4',
+		      primary: 'html5',
+		    }],
+		    
+		    
+		 
+		  }//end of movies
+      ]
+		});
+jwplayer("container").setCaptions({
+  "back": true,
+  "backgroundOpacity": "32",
+  "edgeStyle": "dropshadow",
+  "fontSize": 14,
+  "fontOpacity": 100,
+  "fontScale": 0.05,
+  "windowOpacity": 0,
+  "color": "#ffff00"
+});
+    
+    
+    
+    
+  
+  
+  </script>
+
+</body>
+</html>
